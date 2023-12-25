@@ -18,6 +18,7 @@ let label = "listening";
 // Teachable Machine model URL:
 let soundModelURL = 'https://huangyun00.github.io/soundcl/model.json';
 
+
 function preload() {
   // Load the model
   classifier = ml5.soundClassifier(soundModelURL);
